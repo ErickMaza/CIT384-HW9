@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A JavaScript mini demo of dates, number conversion, and math."
+    />
+    <title>JavaScript Mini Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">CIT 384 · Homework 9</p>
+        <h1>JavaScript Mini Demo</h1>
+      </header>
+
+      <div class="demo-grid">
+        <section class="demo-card date-card" aria-labelledby="dateHeading">
+          <div class="card-icon" aria-hidden="true">01</div>
+          <h2 id="dateHeading">Date Display</h2>
+          <p id="dateOutput" class="date-output" aria-live="polite">
+            Date will appear here.
+          </p>
+        </section>
+
+        <section class="demo-card conversion-card" aria-labelledby="conversionHeading">
+          <div class="card-icon" aria-hidden="true">02</div>
+          <h2 id="conversionHeading">Number Conversion Tests</h2>
+          <ul id="numberConversionOutput" class="result-list" aria-live="polite">
+            <li>Results will appear here.</li>
+          </ul>
+          <p id="conversionMessage" class="callout" aria-live="polite"></p>
+        </section>
+
+        <section class="demo-card math-card" aria-labelledby="mathHeading">
+          <div class="card-icon" aria-hidden="true">03</div>
+          <h2 id="mathHeading">Math and Number Formatting</h2>
+          <div id="mathOutput" class="math-output" aria-live="polite">
+            Results will appear here.
+          </div>
+          <p id="mathMessage" class="callout" aria-live="polite"></p>
+        </section>
+      </div>
+
+      <footer class="page-footer">
+        <p>Made by me</p>
+      </footer>
+    </main>
+  </body>
+</html>
