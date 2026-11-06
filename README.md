@@ -1,6 +1,6 @@
 # JavaScript Mini Demo
 
-A single-page CIT 384 homework demo showing JavaScript date formatting, string-to-number conversion, validation, conditional messages, and a formatted price calculation.
+homework demo showing JavaScript date formatting, string to number conversion, validation, conditional messages, and a formatted price calculation.
 
 ## Files
 
@@ -15,13 +15,11 @@ A single-page CIT 384 homework demo showing JavaScript date formatting, string-t
 - `String()` with `padStart()`
 - `Number()` with `Number.isNaN()` and `Number.isInteger()`
 - `Number.prototype.toFixed()`
-- `document.getElementById()` and the `textContent` / `innerHTML` properties
+- `document.getElementById()` and `textContent` / `innerHTML` properties
 
 ## GitHub Pages
 
-After enabling GitHub Pages for the repository using the `main` branch and root folder, replace this placeholder with the live URL:
-
-`https://<your-github-username>.github.io/<repository-name>/`
+https://erickmaza.github.io/CIT384-HW9/
 
 ## Screenshot
 
